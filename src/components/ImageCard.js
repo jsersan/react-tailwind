@@ -8,19 +8,19 @@ const ImageCard = ({ image }) => {
       <img src={image.webformatURL} alt="" className="w-full"/>
       <div className="px-6 py-4">
         <div className="font-bold text-purple-500 text-xl mb-2">
-          Photo by {image.user}
+          Foto de {image.user}
         </div>
         <ul>
           <li>
-            <strong>Views: </strong>
+            <strong>Vistas: </strong>
             {image.views}
           </li>
           <li>
-            <strong>Downloads: </strong>
+            <strong>Descargas: </strong>
             {image.downloads}
           </li>
           <li>
-            <strong>Likes: </strong>
+            <strong>Me gusta!: </strong>
             {image.likes}
           </li>
         </ul>
